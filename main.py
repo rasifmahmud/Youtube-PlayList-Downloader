@@ -12,13 +12,13 @@ for link in soup.findAll('li', {'class': 'yt-uix-scroller-scroll-unit '}):
 
 
 
-counter=49
+counter=0
 print(list[198])
 print(len(list))
 
 #index number 48 is missing to download
 #another one missing may be 9 or 10 or 11
-for i in range(49,len(list)):
+for i in range(len(list)):
     id = 'https://www.youtube.com/watch?v='+list[i]
     yt = YouTube(id)
     video = yt.get('mp4', '720p')
