@@ -13,8 +13,6 @@ for link in soup.findAll('li', {'class': 'yt-uix-scroller-scroll-unit '}):
 
 
 counter=0
-print(list[198])
-print(len(list))
 
 #index number 48 is missing to download
 #another one missing may be 9 or 10 or 11
